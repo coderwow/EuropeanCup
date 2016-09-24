@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>激情欧洲杯</title>
+    <link rel="stylesheet/less" href="index.less" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script src="http://cdn.staticfile.org/less.js/1.7.0/less.min.js"></script>
+    <script>less.watch();</script>
+    <script>
+        window.onload = function() {
+            document.getElementById('pitch').className = 'football-pitch ready';
+        }
+    </script>
+</head>
+<body>
+<h1>激情欧洲杯</h1>
+<div id='pitch' class="football-pitch">
+    <div class="lines">
+        <div class="half-line"></div>
+        <div class="center-circle"></div>
+        <div class="center-spot"></div>
+
+        <div class="penalty-left">
+            <div class="penalty-arc-left"></div>
+        </div>
+        <div class="penalty-right">
+            <div class="penalty-arc-right"></div>
+        </div>
+
+        
+        <div class="penalty-area-left"></div>
+        <div class="penalty-spot-left"></div>
+        <div class="goal-area-left"></div>
+        <div class="corner-area-left-top"></div>
+        <div class="corner-area-left-bottom"></div>
+
+        <div class="penalty-area-right"></div>
+        <div class="penalty-spot-right"></div>
+        <div class="goal-area-right"></div>
+        <div class="corner-area-right-top"></div>
+        <div class="corner-area-right-bottom"></div>
+    </div>
+    <div class="players">
+        <div class="match-a5">
+            <img src="img/a5.png" />
+            <span>格雷罗</span>
+        </div>
+        <div class="match-a4">
+            <img src="img/a4.png" />
+            <span>丰特</span>
+        </div>
+        <div class="match-a3">
+            <img src="img/a3.png" />
+            <span>佩佩</span>
+        </div>
+        <div class="match-a21">
+            <img src="img/a21.png" />
+            <span>塞德里克</span>
+        </div>
+        <div class="match-a14">
+            <img src="img/a14.png" />
+            <span>卡瓦略</span>
+        </div>
+        <div class="match-a23">
+            <img src="img/a23.png" />
+            <span>阿德里安</span>
+        </div>
+        <div class="match-a10">
+            <img src="img/a10.png" />
+            <span>若昂-马里奥</span>
+        </div>
+        <div class="match-a16">
+            <img src="img/a16.png" />
+            <span>雷纳托-桑切斯</span>
+        </div>
+        <div class="match-a17">
+            <img src="img/a17.png" />
+            <span>纳尼</span>
+        </div>
+        <div class="match-a7">
+            <img src="img/a7.png" />
+            <span>C罗</span>
+        </div>
+        <div class="match-a1">
+            <img src="img/a1.png" />
+            <span>帕特里西</span>
+        </div>
+
+        <div class="match-b3">
+            <img src="img/b3.png" />
+            <span>埃弗拉</span>
+        </div>
+        <div class="match-b22">
+            <img src="img/b22.png" />
+            <span>乌姆蒂蒂</span>
+        </div>
+        <div class="match-b21">
+            <img src="img/b21.png" />
+            <span>科斯切尔</span>
+        </div>
+        <div class="match-b19">
+            <img src="img/b19.png" />
+            <span>萨尼亚</span>
+        </div>
+        <div class="match-b14">
+            <img src="img/b14.png" />
+            <span>马图伊迪</span>
+        </div>
+        <div class="match-b15">
+            <img src="img/b15.png" />
+            <span>博格巴</span>
+        </div>
+        <div class="match-b8">
+            <img src="img/b8.png" />
+            <span>帕耶</span>
+        </div>
+        <div class="match-b18">
+            <img src="img/b18.png" />
+            <span>穆萨-西索科</span>
+        </div>
+        <div class="match-b7">
+            <img src="img/b7.png" />
+            <span>格列兹曼</span>
+        </div>
+        <div class="match-b9">
+            <img src="img/b9.png" /><span>吉鲁</span>
+        </div>
+        <div class="match-b1">
+            <img src="img/b1.png" />
+            <span>洛里斯</span>
+        </div>
+    </div>
+    <div class="football">
+        <canvas id="football" width="1000" height="500"></canvas>
+    </div>
+</div>
+</body>
+</html>

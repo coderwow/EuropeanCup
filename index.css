@@ -1,0 +1,47 @@
+span{
+    background-image: -webkit-linear-gradient(left, #ff3135, #ffd33a, #fffc19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:block;
+}
+span{
+    /* -webkit-animation-name:shandong;
+     -webkit-animation-duration:1s;
+     -webkit-animation-timing-function:linear;
+     -webkit-animation-iteration-count:infinite;*/
+    -webkit-animation: twinkling 1s 1s infinite;
+    -moz-animation: twinkling 1s 1s infinite;
+    -ms-animation: twinkling 1s 1s infinite;
+    -o-animation: twinkling 1s 1s infinite;
+    animation: twinkling 1s 1s infinite;
+}
+@-webkit-keyframes twinkling{
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-moz-keyframes twinkling{
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-o-keyframes twinkling{
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes twinkling{
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes twinkling{
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
